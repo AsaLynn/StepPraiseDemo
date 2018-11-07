@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UnCheckActivity">
+
+
+    <com.zxn.step.view.EvaluateView
+        android:id="@+id/cv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:checkActiveDrawables="@drawable/rb_bg_sc_praise"
+        app:checkPadding="@dimen/dp_12"
+        app:checkPassiveDrawables="@drawable/rb_bg_sc_tread"
+        app:checkTextColors="@color/rb_text_sc_evaluate"
+        app:checkTextSize="@dimen/sp_12"
+        app:marginSpace="@dimen/dp_60" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除状态" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示赞" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示踩" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无评价" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不许评价" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EvaluateView">
+        <attr name="marginSpace" format="dimension" />
+        <attr name="checkPadding" format="dimension" />
+        <attr name="checkTextSize" format="dimension" />
+        <attr name="checkTextColors" format="color" />
+        <attr name="checkActiveDrawables" format="reference" />
+        <attr name="checkPassiveDrawables" format="reference" />
+    </declare-styleable>
+</resources><!--
+ <attr name="horizontalPaddingSpace" format="dimension" />
+-->

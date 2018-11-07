@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/cb_praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:button="@null"
+        android:drawablePadding="@dimen/dp_6"
+        android:text="@string/text_praise"
+        android:textSize="@dimen/sp_12" />
+
+    <CheckBox
+        android:id="@+id/cb_tread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_44"
+        android:background="@null"
+        android:button="@null"
+        android:drawablePadding="@dimen/dp_6"
+        android:text="@string/text_tread"
+        android:textColor="@color/rb_text_sc_evaluate"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>
+
+
+    <!--
+ android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+
+ android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+
+          android:layout_marginLeft="@dimen/dp_40"
+           android:textColor="@color/rb_text_sc_evaluate"
+
+            android:drawableLeft="@drawable/rb_bg_sc_praise"
+             android:drawableLeft="@drawable/rb_bg_sc_tread"
+-->
